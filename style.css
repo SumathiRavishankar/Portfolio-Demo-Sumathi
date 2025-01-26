@@ -1,0 +1,262 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100%;
+    background-color: white;
+    color: rgb(37, 17, 90);
+}
+
+/* Nav Section */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: rgb(178, 105, 247);
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.navbar .nav-links ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links ul li {
+    margin: 0 15px;
+
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Header Section */
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: rgb(178, 105, 247);
+    color: white;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+/* About Section */
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.about-text {
+    flex: 1;
+    /* basis, shrink, grow */
+    padding: 20px;
+}
+
+.about h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+/* .about-img{
+    height:200px;
+    width: 300px;
+    background-color: antiquewhite;
+    position: relative;
+}
+
+.about-img p{
+    position: absolute;
+    margin: 80px;
+    align-items: center;
+} */
+
+.about-img {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+} 
+
+ .about-img img{
+        max-width: 100%;
+        height: auto;
+        border-radius: 100px;
+    }
+
+
+/* Skills Section */
+
+.skills {
+    padding: 20px;
+    text-align: center;
+
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-card {
+    background-color: rgb(178, 105, 247);
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+}
+
+.skill-card i {
+    margin-right: 10px;
+    font-size: 23px;
+}
+
+/* Project Section */
+
+.project{
+    text-align: center;
+}
+
+.project h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-card{
+    margin: 20px auto;
+    padding: 15px;
+    min-width: 400px;
+    background-color: rgb(234, 217, 250);
+    border-radius: 8px;
+}
+
+.project-card img{
+    border-radius: 10px;
+    width: 10%;
+    height: auto;
+}
+
+.project-button{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.project-card .btn i{
+    margin-right: 10px;
+}
+
+.project-card .btn {
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(37, 17, 90);
+    border-radius: 10px;
+}
+
+.project-button .btn:hover{
+    background-color: green;
+}
+
+/* Contact Section */
+
+.contact{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(178, 105, 247);
+    color: white;
+}
+
+.contact h2{
+    margin: 20px;
+    color: rgb(37, 17, 90);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact input, .contact textarea{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 0;
+    border-radius: 6px;
+}
+
+.contact button{
+    margin-bottom: 50px;
+    padding: 5px;
+    border: 0;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(37, 17, 90);
+    cursor: pointer;
+    align-items: center;
+}
+
+.contact button:hover{
+    background-color: orange;
+}
+
+.social-links i {
+margin-right: 8px;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+    
+.social-links a {
+    margin: 0 10px;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(37, 17, 90);
+    border-radius: 8px;
+    align-items: center;
+    }
+
+    .social-links a:hover {
+        background-color: blue;
+    }
